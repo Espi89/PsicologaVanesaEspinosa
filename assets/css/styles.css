@@ -455,6 +455,34 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.scroll-top{
+  position: fixed;
+  bottom: -100%;
+  right: 1.5rem;
+}
+
+.scroll-top .bx{
+  padding: 8px;
+  font-size: 1.3rem;
+  color: var(--first-color);
+  background: var(--box-color);
+  border-radius: 50%;
+}
+
+.scroll-top .bx:hover{
+  background: var(--second-color);
+  transition: .3s;
+}
+
+
+.scroll-active{
+  bottom: 2rem;
+  transition: .3s;
+}
+
+
+
+
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
   .home {
